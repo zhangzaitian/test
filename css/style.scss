@@ -1,0 +1,22 @@
+$color:#ffe;
+body{
+  font-family: "微软雅黑";
+}
+ul{
+  li{
+    a{
+      background: $color;
+      &:hover{
+        background: yellow;
+      }
+    }
+  }
+}
+
+div{
+  background: $color;
+  span{
+    background: red;
+  }
+}
+
